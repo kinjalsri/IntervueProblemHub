@@ -10,14 +10,9 @@ function Navbar({user , onLogout}){
             {/* Right Side */}
             <div className="flex items-center gap-6">
 
-                <button 
-                className="text-green-500 hover:text-green-300">
-                Home
-                </button>
+                
 
-                <button className="text-green-500 hover:text-green-300">
-                Profile
-                </button>
+                
 
                 <button
                 onClick={onLogout}

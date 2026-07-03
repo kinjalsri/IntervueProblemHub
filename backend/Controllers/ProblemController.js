@@ -119,7 +119,7 @@ const getAdminProblems = async (req, res) => {
 
          
 
-         res.status(200).json(result.rows[0]);
+         res.status(200).json(result.rows);
 
     }
 
